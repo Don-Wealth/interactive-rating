@@ -64,6 +64,11 @@ p {
   color: white;
 }
 
+.clicked{
+  background-color: #fa781b;
+  color: white;
+}
+
 #submit-button {
   background-color: #fa781b;
   color: white;
