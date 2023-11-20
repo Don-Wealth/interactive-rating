@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Overpass:wght@400;700&display=swap');
+
+body {
+  font-family: 'Overpass', 'Libre Baskerville', serif;
+  padding: 30px;
+  color: white;
+}
+.full-container {
+  background-color: #212832;
+  padding: 20px;
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+img {
+  width: 12px;
+}
+
+.star-img-container {
+  background-color: #272E38;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #838a95;
+  margin-top: 0px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.number {
+  background-color: #272E38;
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.number:active {
+  background-color: #fa781b;
+  color: white;
+}
+
+#submit-button {
+  background-color: #fa781b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+  width: 100%;
+  height: 36px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#submit-button:active {
+  background-color: white;
+  color: #fa781b;
+}
+
+.attribution { 
+  font-size: 7px; 
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 2px;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* rating page starts here */
+#rating-img {
+  width: 120px;
+}
+.img {
+  text-align: center;
+}
+#rate-selection {
+  color: #FC7616;
+  font-size: 12px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #272E38;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 80px;
+}
+h2 {
+  text-align: center;
+}
+.appreciation-paragrapgh {
+  text-align: center;
+}
+
+/* Tablet view - min width: 376px && max-width: 1139px */
+@media (min-width: 600px) and (max-width: 1139px) {
+  .full-container {
+    padding: 20px;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+  }
+
+  .numbers {
+    justify-content: space-evenly;
+  }
+}
+
+/* Desktop view - min-width: 1140px */
+@media screen and (min-width: 1140px) {
+  .full-container {
+    padding: 20px;
+    height: 250px;
+    width: 30%;
+    margin: auto;
+  }
+}
