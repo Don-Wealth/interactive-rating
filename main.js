@@ -7,11 +7,15 @@ const submitButton = document.getElementById("submit-button");
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     // Confirm that the button clicks
-    console.log(button.textContent);
+    // console.log(button.textContent);
 
     // Assign content of the button to the displayRating variable
     displayRating = button.textContent;
-    console.log(displayRating);
+
+    // console.log(displayRating);
+
+    // add styling to the button when clicked on desktop
+    button.classList.add("clicked");
   });
 });
 
