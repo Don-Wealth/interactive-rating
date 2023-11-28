@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![rating page](./images/Screenshot.png)
+![submitted rating page](./images/Screenshot1.png)
 
 ### Links
 
