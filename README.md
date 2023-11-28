@@ -4,7 +4,7 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process]
+- [My process](#process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -29,9 +29,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Don-Wealth/interactive-rating)
-- Live Site URL: [](https://interactive-rating-indol.vercel.app/)
+- Solution URL: [GitHub Repo](https://github.com/Don-Wealth/interactive-rating)
+- Live Site URL: [Live site](https://interactive-rating-indol.vercel.app/)
 
+## Process
 ### Built with
 
 - Semantic HTML5 markup
@@ -72,5 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Acknowledgments
 
-Shout out to my Mentor. A Nigerian IT sorcerer @[](https://github.com/Kenechvkwv). Thanks for the contribution and insight during this project.
+Shout out to my Mentor. A Nigerian IT sorcerer
+[@Kenechukwu Ubesie](https://github.com/Kenechvkwv). Thanks for the contribution and insight during this project.
 
