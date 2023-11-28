@@ -4,6 +4,7 @@ body {
   font-family: 'Overpass', 'Libre Baskerville', serif;
   padding: 30px;
   color: white;
+  background-color: black;
 }
 .full-container {
   background-color: #212832;
