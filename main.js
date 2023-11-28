@@ -15,7 +15,7 @@ buttons.forEach((button) => {
     // console.log(displayRating);
 
     // add styling to the button when clicked on desktop
-    button.classList.add("clicked");
+    button.classList.toggle("clicked");
   });
 });
 
