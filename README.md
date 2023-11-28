@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](https://github.com/Don-Wealth/interactive-rating)
-- Live Site URL: [](https://don-wealth.github.io/interactive-rating/)
+- Live Site URL: [](https://interactive-rating-indol.vercel.app/)
 
 ### Built with
 
